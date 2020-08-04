@@ -21,6 +21,31 @@
 
       function setDefault() {
         let defaultText = `\
+# Devhoussam123 
+## a markdown previewer
+[Learn more about Google](http://www.google.com).
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+\`This is an example of inline code\`
+\`\`\`
+function exampleOf() {
+  return multiLineCodeBlock;
+}
+\`\`\`
+- This
+- is
+- an
+- example
+- of
+- list
+- items
+> This is an example of block quote
+![Devhoussam123](https://images.freeimages.com/images/large-previews/8e9/falling-gras-1548881.jpg)
+**This is an example of Bolded Text**`;
         let editorField = document.getElementById("editor");
         let previewElement = document.getElementById("preview");
         editorField.value = defaultText;
